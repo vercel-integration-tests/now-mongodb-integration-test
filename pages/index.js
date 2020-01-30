@@ -22,6 +22,8 @@ const Home = () => {
 
       <div className="hero">
         <h1 className="title">Welcome to Next!</h1>
+        <p>The customKey is {process.env.customKey}</p>
+        <p>The MONGO_URL is {process.env.MONGO_URL}</p>
         <p className="description">
           To get started, edit the <code>pages/index.js</code> or{' '}
           <code>pages/api/date.js</code> files, then save to reload.
